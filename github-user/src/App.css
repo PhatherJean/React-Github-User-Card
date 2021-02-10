@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.user {
+  text-align: center;
+  border: solid cyan 5px;
+  background-color: salmon;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 80px 0 20px;
+}
+
+.follower {
+  text-align: center;
+  margin: 0 auto;
+
+  border: solid navy 2px;
+  background-color: mediumspringgreen;
+}
+
+img {
+  padding: 20px;
+  border-radius: 50%;
+}
